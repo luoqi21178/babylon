@@ -4,6 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 )
+wget https://github.com/babylonchain/networks/raw/main/bbn-test-3/genesis.tar.bz2
+tar -xjf genesis.tar.bz2 && rm genesis.tar.bz2
+mv genesis.json ~/.babylond/config/genesis.json
 
 // GenesisState of the blockchain is represented here as a map of raw json
 // messages key'd by a identifier string.

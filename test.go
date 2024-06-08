@@ -1,0 +1,1 @@
+sudo apt install git build-essential curl jq --yes
